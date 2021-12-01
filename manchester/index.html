@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manchester United</title>
+    <link rel="shortcut icon" type="image/png" href="./assets/img/favicon.ico">
+    <link rel="stylesheet" href="./assets/css/grid.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+        integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+</head>
+
+<body>
+    <div class="container">
+
+        <!--Header-->
+        <header class="header">
+            <div class="grid wide">
+                <div class="header__container">
+                    <nav class="header__nav">
+                        <div class="header__logo-container">
+                            <a href="" class="header__logo">
+                                <img src="./assets/img/Header-Logo1500994616801.png" alt="">
+                            </a>
+                        </div>
+                        <ul class="header__nav-list hide-on-mobile">
+                            <li class="header__nav-list-item">
+                                <a href="#" class="header__nav-list-item-link">MY UNITED</a>
+                            </li>
+                            <li class="header__nav-list-item">
+                                <a href="#teamsquad" class="header__nav-list-item-link">TEAM SQUAD</a>
+                            </li>
+                            <li class="header__nav-list-item">
+                                <a href="#manager" class="header__nav-list-item-link">MANAGER</a>
+                            </li>
+                            <li class="header__nav-list-item">
+                                <a href="#legends" class="header__nav-list-item-link">LEGENDS</a>
+                            </li>
+                        </ul>
+                    </nav>
+
+                    <div class="header__option hide-on-mobile-tablet">
+                        <div class="header__option-language">
+                            <p class="header__language">Language</p>
+                            <i class="fas fa-chevron-down"></i>
+
+                            <div class="language__option">
+                                <p class="language">Vietnamese</p>
+                                <p class="language">English</p>
+                            </div>
+                        </div>
+                        <div class="header__login-signup">
+                            <span class="header__login header__nav-list-item">
+                                <a href="" class="header__nav-list-item-link">LOGIN</a>
+                            </span>
+
+                            <span class="header__signup header__nav-list-item">
+                                <a href="" class="header__nav-list-item-link">SIGN UP</a>
+                            </span>
+                        </div>
+                    </div>
+
+                    <!--Menu Tablet-->
+                    <div class="tablet-menu">
+                        <i class="fas fa-bars"></i>
+                    </div>
+                    <!--Overplay on mobile and menu-->
+                    <div class="overplay"></div>
+                    <nav class="tablet-menu__container">
+                        <div class="close__menu-tablet">
+                            <i class="fas fa-times"></i>
+                        </div>
+                        <ul class="tablet-menu__list">
+                            <li class="tablet-menu__item">
+                                <a href="" class="tablet-menu__item-link">LOGIN</a>
+                            </li>
+                            <li class="tablet-menu__item">
+                                <a href="" class="tablet-menu__item-link">SIGN UP</a>
+                            </li>
+
+
+                        </ul>
+                        <select class="header__option-language-tablet" name="Language" id="">
+                            <option value="Vietnamese">Vietnamese</option>
+                            <option value="English">English</option>
+                        </select>
+
+                    </nav>
+
+                    <!--Mobile menu-->
+                    <div class="mobile-menu">
+                        <i class="fas fa-bars"></i>
+                    </div>
+                    <div class="mobile-menu__container">
+                        <div class="close__menu-mobile">
+                            <i class="fas fa-times"></i>
+                        </div>
+                        <nav class="mobile-menu__nav">
+                            <ul class="mobile-menu__list">
+                                <li class="mobile-menu__list-item">
+                                    <a href="" class="mobile-menu__item-link">MY UNITED</a>
+                                </li>
+                                <li class="mobile-menu__list-item">
+                                    <a href="#teamsquad" class="mobile-menu__item-link">TEAM SQUAD</a>
+                                </li>
+                                <li class="mobile-menu__list-item">
+                                    <a href="#manager" class="mobile-menu__item-link">MANAGER</a>
+                                </li>
+                                <li class="mobile-menu__list-item">
+                                    <a href="#legends" class="mobile-menu__item-link">LEGENDS</a>
+                                </li>
+                                <li class="mobile-menu__list-item">
+                                    <a href="" class="mobile-menu__item-link">LOGIN</a>
+                                </li>
+                                <li class="mobile-menu__list-item">
+                                    <a href="" class="mobile-menu__item-link">SIGN UP</a>
+                                </li>
+                            </ul>
+                        </nav>
+
+                        <select class="header__option-language-mobile" name="Language" id="">
+                            <option value="Vietnamese">Language</option>
+                            <option value="Vietnamese">Vietnamese</option>
+                            <option value="English">English</option>
+                        </select>
+
+                    </div>
+
+                </div>
+            </div>
+        </header>
+        <!---------------------------------------->
+
+        <div class="slider">
+            <div class="slider__wrapper">
+                <div class="slider__main">
+                    <div class="slider__item">
+                        <div class="img" style="background-image: url(./assets/img/wp3293644.jpg);"></div>
+                    </div>
+                    <div class="slider__item">
+                        <div class="img" style="background-image: url(./assets/img/wp2884230.jpg);"></div>
+                    </div>
+                    <div class="slider__item">
+                        <div class="img" style="background-image: url(./assets/img/wp3293769.jpg);"></div>
+                    </div>
+                    <div class="slider__item">
+                        <div class="img" style="background-image: url(./assets/img/wp3293772.jpg);"></div>
+                    </div>
+                </div>
+            </div>
+
+            <ul class="slider__dots">
+                <li data-index="0" class="slider__dot-item active"></li>
+                <li data-index="1" class="slider__dot-item"></li>
+                <li data-index="2" class="slider__dot-item"></li>
+                <li data-index="3" class="slider__dot-item"></li>
+            </ul>
+        </div>
+
+        <div class="content">
+            <div id="teamsquad" class="section-content section-content__team-squad">
+                <div class="grid wide">
+                    <p class="section-content__title">Team Squad</p>
+
+                    <div class="line-up">
+                        <!--GOALKEEPERS-->
+                        <div class="line-up__position">
+                            <p class="line-up__position-name">GOALKEEPERS</p>
+                            <div class="grid wide">
+                                <div class="row">
+                                    <div data-aos="zoom-in" data-aos-delay="100" data-aos-duration="1500"
+                                        class="col l-2 l-o-5 m-6 m-o-3 c-12">
+                                        <div class="player__card">
+                                            <div class="player__card-img"
+                                                style="background-image: url(./assets/img/degea.jpg);"></div>
+                                            <div class="player__infor">
+                                                <p class="player__number">1</p>
+                                                <p class="player__name"> David De Gea</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!--DEFENDERS-->
+                        <div class="line-up__position">
+                            <p class="line-up__position-name">DEFENDERS</p>
+                            <div class="grid wide">
+                                <div class="row">
+                                    <div data-aos="fade-right" data-aos-delay="100" data-aos-duration="1500"
+                                        class="col l-2 l-o-1 m-6 c-12 mb-16">
+                                        <div class="player__card">
+                                            <div class="player__card-img"
+                                                style="background-image: url(./assets/img/bissaka.jpg);"></div>
+                                            <div class="player__infor">
+                                                <p class="player__number">29</p>
+                                                <p class="player__name">ARRON WAN-BISSAKA</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col l-2 l-o-1 m-6 c-12 mb-16">
+                                        <div data-aos="zoom-in" data-aos-delay="100" data-aos-duration="1500"
+                                            class="player__card">
+                                            <div class="player__card-img"
+                                                style="background-image: url(./assets/img/varane.jpg);"></div>
+                                            <div class="player__infor">
+                                                <p class="player__number">19</p>
+                                                <p class="player__name">Raphael Varane</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div data-aos="zoom-in" data-aos-delay="100" data-aos-duration="1500"
+                                        class="col l-2 l-o-1 m-6 c-12 mb-16">
+                                        <div class="player__card">
+                                            <div class="player__card-img"
+                                                style="background-image: url(./assets/img/maguire.jpg);"></div>
+                                            <div class="player__infor">
+                                                <p class="player__number">5</p>
+                                                <p class="player__name">HARRY MAGUIRE</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div data-aos="fade-left" data-aos-delay="100" data-aos-duration="1500"
+                                        class="col l-2 l-o-1 m-6 c-12 mb-16">
+                                        <div class="player__card">
+                                            <div class="player__card-img"
+                                                style="background-image: url(./assets/img/shaw.jpg);"></div>
+                                            <div class="player__infor">
+                                                <p class="player__number">25</p>
+                                                <p class="player__name">LUKE SHAW</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!--MIDFIELDERS-->
+                        <div class="line-up__position">
+                            <p class="line-up__position-name">MIDFIELDERS</p>
+                            <div class="grid wide">
+                                <div class="row">
+                                    <div data-aos="fade-right" data-aos-delay="100" data-aos-duration="1500"
+                                        class="col l-2 l-o-2 m-6 c-12 mb-16">
+                                        <div class="player__card">
+                                            <div class="player__card-img"
+                                                style="background-image: url(./assets/img/van_de_Beek.jpg);"></div>
+                                            <div class="player__infor">
+                                                <p class="player__number">34</p>
+                                                <p class="player__name">Van De Beek</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div data-aos="zoom-in" data-aos-delay="100" data-aos-duration="1500"
+                                        class="col l-2 l-o-1 m-6 c-12 mb-16">
+                                        <div class="player__card">
+                                            <div class="player__card-img"
+                                                style="background-image: url(./assets/img/bruno.jpg);"></div>
+                                            <div class="player__infor">
+                                                <p class="player__number">18</p>
+                                                <p class="player__name">BRUNO FERNANDES</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div data-aos="fade-left" data-aos-delay="100" data-aos-duration="1500"
+                                        class="col l-2 l-o-1 m-6 c-12 mb-16 m-o-3">
+                                        <div class="player__card">
+                                            <div class="player__card-img"
+                                                style="background-image: url(./assets/img/paul.jpg);"></div>
+                                            <div class="player__infor">
+                                                <p class="player__number">6</p>
+                                                <p class="player__name">PAUL POGBA</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <!--FORWARDS-->
+                        <div class="line-up__position">
+                            <p class="line-up__position-name">FORWARDS</p>
+                            <div class="grid wide">
+                                <div class="row">
+                                    <div data-aos="fade-right" data-aos-delay="100" data-aos-duration="1500"
+                                        class="col l-2 l-o-2 m-6 c-12 mb-16">
+                                        <div class="player__card">
+                                            <div class="player__card-img"
+                                                style="background-image: url(./assets/img/Sancho.jpg);"></div>
+                                            <div class="player__infor">
+                                                <p class="player__number">25</p>
+                                                <p class="player__name">Jadon sancho</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div data-aos="zoom-in" data-aos-delay="100" data-aos-duration="1500"
+                                        class="col l-2 l-o-1 m-6 c-12 mb-16">
+                                        <div class="player__card">
+                                            <div class="player__card-img"
+                                                style="background-image: url(./assets/img/ronaldo.jpg);"></div>
+                                            <div class="player__infor">
+                                                <p class="player__number">7</p>
+                                                <p class="player__name">Cristiano Ronaldo</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div data-aos="fade-left" data-aos-delay="100" data-aos-duration="1500"
+                                        class="col l-2 l-o-1 m-6 c-12 mb-16 m-o-3">
+                                        <div class="player__card">
+                                            <div class="player__card-img"
+                                                style="background-image: url(./assets/img/rash4.jpg);"></div>
+                                            <div class="player__infor">
+                                                <p class="player__number">10</p>
+                                                <p class="player__name">MARCUS RASHFORD</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="section-content section-content__manager" id="manager">
+                <div class="section-content__manager-statics">
+                    <div class="grid wide">
+                        <p style="color: #fff;" class="section-content__title">Manager</p>
+                        <div class="manager-infor__container">
+                            <div class="grid wide">
+                                <div class="row">
+                                    <div data-aos="fade-right" data-aos-delay="100" data-aos-duration="1500"
+                                        class="col l-3 m-12 c-12">
+                                        <div class="manager-visual__infor">
+                                            <div class="manager-visual__name">
+                                                <p class="">OLE GUNNAR SOLSKJAER</p>
+                                            </div>
+
+                                            <div class="manager-visual__slogan">
+                                                <p>"BEING GIVEN THE OPPORTUNITY TO MOVE THE CLUB FORWARD WITH ALL ITS
+                                                    POTENTIAL IS FANTASTIC"</p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div data-aos="zoom-in" data-aos-delay="100" data-aos-duration="1500"
+                                        class="col l-6 m-12 c-12">
+                                        <div class="manager-visual__img">
+                                            <img src="./assets/img/man40342.png" alt="">
+                                        </div>
+                                    </div>
+
+                                    <div data-aos="fade-left" data-aos-delay="100" data-aos-duration="1500"
+                                        class="col l-3 m-12 c-12">
+                                        <div class="manager-visual__statics">
+                                            <div class="manager-visual__statics-item">
+                                                <p>MATCHES:</p>
+                                                <p>168</p>
+                                            </div>
+
+                                            <div class="manager-visual__statics-item">
+                                                <p>WINS:</p>
+                                                <p>91</p>
+                                            </div>
+
+                                            <div class="manager-visual__statics-item">
+                                                <p>DRAWS:</p>
+                                                <p>37</p>
+                                            </div>
+
+                                            <div class="manager-visual__statics-item">
+                                                <p>LOSES:</p>
+                                                <p>40</p>
+                                            </div>
+
+                                            <div class="manager-visual__statics-item">
+                                                <p>WIN %</p>
+                                                <p>54.17</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="section-content__manager-infor">
+                    <div class="grid wide">
+                        <div class="row">
+                            <div data-aos="zoom-out" data-aos-delay="100" data-aos-duration="1500"
+                                class="col l-12 m-12 c-12">
+                                <div class="manager-biography">
+                                    <p class="manager-biography__title">BIOGRAPHY</p>
+                                    <p class="manager-biography__content">
+                                        Former Manchester United and Norway striker Ole Gunnar Solskjaer returned to Old
+                                        Trafford in a very different role on 19 December 2018, when he was appointed as
+                                        the club's caretaker manager.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col l-4 m-6 c-6">
+                                <div data-aos="fade-right" data-aos-delay="100" data-aos-duration="1500"
+                                    class="manager-biography__item">
+                                    <div class="manager__position">
+                                        <p class="manager-biography__title">POSITION</p>
+                                        <p class="manager-biography__content">Manager</p>
+                                    </div>
+
+                                    <div class="manager-biography__joined">
+                                        <p class="manager-biography__title">Joined</p>
+                                        <p class="manager-biography__special-time">19 Dec 2018</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div data-aos="zoom-in" data-aos-delay="100" data-aos-duration="1500"
+                                class="col l-4 m-6 c-6">
+                                <div class="manager-biography__item">
+                                    <div class="manager-country">
+                                        <p class="manager-biography__title">Country</p>
+                                        <p class="manager-biography__content">Norwegian</p>
+                                    </div>
+
+                                    <div class="manager-firstmatch">
+                                        <p class="manager-biography__title">FIRST MATCH</p>
+                                        <p class="manager-biography__special-time">22 Dec 2018</p>
+                                        <small><b>V Cardiff City(A)</b></small>
+                                    </div>
+                                </div>
+                            </div>
+                            <div data-aos="fade-left" data-aos-delay="100" data-aos-duration="1500"
+                                class="col l-4 m-6 c-6">
+                                <div class="manager-biography__item">
+                                    <p class="manager-biography__title">DATE OF BIRTH</p>
+                                    <p class="manager-biography__special-time">26 Feb 1973</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="section-content section-content__legends" id="legends">
+                <div class="section-content__legends-container">
+                    <div class="grid wide">
+                        <p style="color: #fff;" class="section-content__title">LEGENDS</p>
+                        <div class="legends__container">
+                            <div class="row legend-list">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <footer class="footer">
+            <div class="grid wide">
+                <div class="row footer__row">
+                    <div class="col l-1 l-o-4 m-2 m-o-2 c-3">
+                        <div class="footer__logo">
+                            <img src="./assets/img/Logo_Brand-02_1200x1200.png.crdownload" alt="">
+                        </div>
+                    </div>
+                    <div class="col l-1 m-2 c-3">
+                        <div class="footer__logo">
+                            <img src="./assets/img/logo-chevrolet.png" alt="">
+                        </div>
+                    </div>
+                    <div class="col l-1 m-2 c-3">
+                        <div class="footer__logo">
+                            <img src="./assets/img/bao-hiem-aon.png" alt="">
+                        </div>
+                    </div>
+                    <div class="col l-1 m-2 c-3">
+                        <div class="footer__logo">
+                            <img src="./assets/img/kohler-logo-261x146.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="./assets/js/index.js"></script>
+    <script src="./assets/js/slider.js"></script>
+    <script src="./assets/js/legends.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>

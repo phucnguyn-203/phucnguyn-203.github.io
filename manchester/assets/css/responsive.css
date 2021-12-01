@@ -1,0 +1,118 @@
+
+@media (min-width: 1024px){
+    .mb-16 {
+        margin-bottom: 16px;
+    }
+}
+
+/* Tablet and Mobile */
+@media (max-width: 1023px){
+    .hide-on-mobile-tablet {
+        display: none;
+    }
+
+    .overplay.active {
+        display: block;
+    }
+
+    .mb-16 {
+        margin-bottom: 16px;
+    }
+    
+    .manager-visual__statics-item {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    
+    .manager-visual__slogan {
+        margin-top: 30px;
+    }
+
+}
+
+/* TabLet */
+@media (min-width: 740px) and (max-width:1023px){
+    .hide-on-tablet{
+        display: none;
+    }
+
+    .tablet-menu {
+        display: block;
+    }
+
+    .tablet-menu__container.active {
+        transform: translateX(0);
+    }
+
+}
+
+/* Mobile */
+@media (max-width: 739px){
+    :root{
+        --header-height: 60px;
+    }
+
+    .mb-8 {
+        margin-bottom: 8px;
+    }
+
+    .hide-on-mobile {
+        display: none;
+    }
+
+    .header {
+        height: var(--header-height);
+    }
+    
+    .slider {
+        margin-top: var(--header-height);
+    }
+
+    .header__logo-container {
+        margin-left: 20px;
+    }
+
+    .mobile-menu {
+        display: block;
+    }
+
+    .mobile-menu__container.active {
+        transform: translateX(0);
+    }
+
+    .slider {
+        margin-top: var(--header-height);
+    }
+
+    .slider__dots {
+        bottom: 10px;
+    }
+
+    .slider__dot-item {
+        width: 15px;
+        height: 15px;
+    }
+    .section-content__team-squad,
+    .section-content__manager-statics,
+    .section-content__manager-infor,
+    .section-content__legends-container
+     {
+        padding: 0 16px;
+    }
+    .player__infor{
+        bottom: 30px;
+    }
+
+    .player__number {
+        font-size: 30px;
+    }
+
+    .player__name  {
+        font-size: 30px;
+    }
+
+   .manager-visual__slogan, .manager-visual__name {
+       font-size: 20px;
+   }
+
+} 
